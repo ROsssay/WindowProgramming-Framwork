@@ -5,7 +5,6 @@
 #include "Enemy.h"
 #include "Trap.h"
 #include "Jumbo.h"
-#include "Camera.h"
 
 
 class PlayScene : public Scene {
@@ -15,7 +14,7 @@ private:
     std::vector<Trap> traps;
     std::vector<Jumbo> jumbos;
     Player player;
-    Camera camera;
+    
 
 public:
     PlayScene();
